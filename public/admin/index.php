@@ -1,3 +1,3 @@
 <?php
-require __DIR__ . '/../../app/admin/Init.php';
+require dirname(__FILE__,2) . '/app/admin/Init.php';
 $app->bootstrap()->run();
